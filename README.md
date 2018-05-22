@@ -1,6 +1,8 @@
 # Rest-Service
 Rest Service Java \
 This is a simple rest service in java \
+The user can create offers(description , price ,expirydate) and if an offer has expired it is returned with a boolean flag true.\
+A thread runs every 8 seconds to ckeck if the offer has expired.\
 The user can make the below http requests\
 @POST : you can post an offer object to the server\
 @GET : you can get all the existing offers\
